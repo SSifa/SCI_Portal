@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity"
     android:orientation="vertical"
-    android:background="@drawable/milan">
+    android:background="@color/black">
 
     <TextView
         android:layout_width="match_parent"
@@ -96,7 +96,7 @@
         android:layout_marginTop="25dp"/>
 
     <Button
-        android:id="@+id/btr_register"
+        android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:text="Already have an account? Login."
         android:textColor="@color/white"
-        android:layout_gravity="right"
+        android:layout_gravity="end"
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"/>
 

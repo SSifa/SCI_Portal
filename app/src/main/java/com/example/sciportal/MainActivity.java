@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent dashboard = new Intent(getApplicationContext(), DashboardActivity.class);
+                Intent dashboard = new Intent(MainActivity.this, DashboardActivity.class);
                 startActivity(dashboard);
             }
         });
